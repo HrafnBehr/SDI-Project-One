@@ -4,10 +4,16 @@ console.log('My code is running');
 let ourLIST = document.getElementById('ourList');
 
 document.getElementById('addTasker').addEventListener('click', () =>{console.log("I was clicked")});
+// we're grabbing the element ID of addTasker and on click passing it to an arrow function where ourList
 document.getElementById('addTasker').addEventListener('click', () =>{ourLIST
-  .innerHTML += '<li class = "todo">' + document.getElementById("myInput").value + '</li>' + '<button class = "close"> Close </button>'});
+  // creates a list item based off the value of input and adds a close out button on the end of it
+  .innerHTML += '<li class = "todo">' + document.getElementById("myInput").value + ' <button class = "close"> Close </button></li>'});
 
-// taking our list we're adding an event listener on click, passing the item
+// document.getElementById('addTasker').addEventListener('keypress', () =>{ourLIST
+//   // creates a list item based off the value of input and adds a close out button on the end of it
+//   .innerHTML += '<li class = "todo">' + document.getElementById("myInput").value + ' <button class = "close"> Close </button></li>'});
+
+// taking our list we're adding an event listener on click, then passing the item
 ourLIST.addEventListener('click', item =>{
   // if the item  class list contains todo
   if (item.target.classList.contains('todo')){
@@ -16,15 +22,17 @@ ourLIST.addEventListener('click', item =>{
   }
 });
 
-// ourLIST.addEventListener('click', item =>{
-//   if (item.target.classList.contains('close')){
+// taking our list we're adding an event listener on click, then passing the item
+ourLIST.addEventListener('click', item =>{
+  // if the item class contains close
+  if (item.target.classList.contains('close')){
+    // it deletes itself and the parent element
+    item.target.parentElement.remove();
+  }
+});
 
-//     item.target.parentElement.remove();
-//   }
-// });
-
-// ourLIST.addEventListener("click", () => deleteTask('close'))
-
-// function deleteTask(parentId) {
-//   document.getElementById(parentId).remove()
-// }
+document.getElementById('addTasker').keydown = function(e){
+    if(e.keyCode == 13){
+      // submit
+    }
+ };
