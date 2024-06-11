@@ -12,13 +12,10 @@ In this application you will create a to-do list application that can do the fol
 - The page should be aesthetically pleasing (aka be styled)
 For now do not worry that your page resets during a refresh, making that work is a stretch goal.
 
-If you don't know where to begin, here's the recommended path:
-
-- Start by adding the HTML code. This is like the skeleton of the page, so add a title, list, form, input, buttons, etc...
-- Add your JavaScript
-- Create a variable that will hold your to-do list items.
-- Add a function that takes in a string as input and adds it to the to-do list.
-- Add an event handler to populate an HTML element with your to-do list when the user clicks the appropriate button.
-- Etc... break down the big problems into baby steps and solve them systematically. Test as you go.
-- With the main functionality in place, style your HTML elements using CSS. Make use of the developer console for testing styling.
-Finished with the main objectives? Continue on to the stretch goals to make your application even better.
+USER MANUAL :
+1. Type in the "Add tasker field" what you'd like to add!
+2. Click the add key, notice how the finger becomes a pointer. You're doing so good.
+3. Watch as the tasker populates below, behold its majesty!
+4. To strike through, click the tasker itself. It will grey out because it is sad you finished it and line through with red.
+5. To close a tasker, click the close button. Watch as you remove the task from this webpage and existence. How could you...
+: USER MANUAL ENDS

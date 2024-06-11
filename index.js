@@ -4,6 +4,7 @@ console.log('My code is running');
 let ourLIST = document.getElementById('ourList');
 
 document.getElementById('addTasker').addEventListener('click', () =>{console.log("I was clicked")});
+
 // we're grabbing the element ID of addTasker and on click passing it to an arrow function where ourList
 document.getElementById('addTasker').addEventListener('click', () =>{ourLIST
   // creates a list item based off the value of input and adds a close out button on the end of it
