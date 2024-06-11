@@ -10,10 +10,6 @@ document.getElementById('addTasker').addEventListener('click', () =>{ourLIST
   // creates a list item based off the value of input and adds a close out button on the end of it
   .innerHTML += '<li class = "todo">' + document.getElementById("myInput").value + ' <button class = "close"> Close </button></li>'});
 
-// document.getElementById('addTasker').addEventListener('keypress', () =>{ourLIST
-//   // creates a list item based off the value of input and adds a close out button on the end of it
-//   .innerHTML += '<li class = "todo">' + document.getElementById("myInput").value + ' <button class = "close"> Close </button></li>'});
-
 // taking our list we're adding an event listener on click, then passing the item
 ourLIST.addEventListener('click', item =>{
   // if the item  class list contains todo

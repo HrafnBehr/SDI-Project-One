@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Eater&display=swap');
+
 h1 {
-  color: rgb(0, 2, 128);
-}
+  color: rgb(70, 4, 145);
+  font-family: 'Eater', cursive;
+  font-size: 50px;
+  letter-spacing: 20px;
+  }
 
 body {
   justify-content: center;
+  background-image: url(https://miro.medium.com/v2/resize:fit:4800/format:webp/1*k8qioJACPkXy36aPrgg1ig.jpeg);
 }
 
 .strike {
@@ -22,12 +28,13 @@ body {
 
 #restaurant {
   margin: auto;
+  background-color: #ff98ee;
   width: 50%;
   border: 5px solid #000000;
   padding: 10px
 }
 
-#Sign {
+#sign {
   margin: auto;
   width: 50%;
   padding: 10px
@@ -50,6 +57,7 @@ body {
 
 .todo {
   margin: 2px;
+  background-color: #fff;
   border: 3px solid #000000;
   border-radius: 5px;
   padding: 5px;
