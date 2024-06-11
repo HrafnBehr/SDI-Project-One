@@ -1,0 +1,11 @@
+h1 {
+  color: rgb(0, 2, 128);
+}
+
+body {
+  align-content: center;
+}
+
+.strike {
+  text-decoration: line-through;
+}
